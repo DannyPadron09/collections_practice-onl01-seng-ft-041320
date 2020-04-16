@@ -34,11 +34,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |words|
-    if words = "feet"
-      "feet"
+  array.each do |word|
+    if word = "feet"
+      puts "feet"
     end
-  else words + "s"
-    words
+  else word + "s"
+    puts word
   end
 end
