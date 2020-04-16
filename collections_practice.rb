@@ -35,10 +35,10 @@ end
 
 def add_s(array)
   array.each do |words|
-    if word = "feet"
+    if words = "feet"
       "feet"
     end
-  else word + "s"
-    word
+  else words + "s"
+    words 
   end
 end
