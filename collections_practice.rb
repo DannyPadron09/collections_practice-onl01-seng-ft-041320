@@ -39,6 +39,6 @@ def add_s(array)
       "feet"
     end
   else words + "s"
-    words 
+    words
   end
 end
