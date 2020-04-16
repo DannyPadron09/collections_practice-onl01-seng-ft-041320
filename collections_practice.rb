@@ -35,10 +35,10 @@ end
 
 def add_s(array)
   array.each do |word|
-    if word == array[1]
+    if array[1] == word
       word
+  else 
+    word + "s"
     end
-  else word + "s"
-    puts word
   end
 end
