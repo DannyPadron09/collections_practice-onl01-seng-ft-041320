@@ -32,3 +32,14 @@ end
 def sum_array(array)
   array.inject(0) {|a, b| a + b}
 end
+
+def add_s(array)
+  array.each do |words|
+    if word = "feet"
+      "feet"
+    end
+  else word + "s"
+    word
+  end
+end
+
